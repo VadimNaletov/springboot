@@ -1,0 +1,34 @@
+h3 {
+	font-style: italic;
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+h1, h2, h3, h4, h5, h6, p, span, a, label {
+	font-family: sans-serif;
+}
+
+/* V2 */
+
+* {
+	box-sizing: border-box;
+}
+div {
+	margin: auto;
+}
+.global {
+	border: 1px solid grey;
+	width: 900px;
+}
+.container {
+	border: 1px solid grey;
+	padding: 10px;
+}
+.footer {
+	border: 1px solid grey;
+}
+.footer h3 {
+	margin-right: 10px;
+}
